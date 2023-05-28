@@ -1,5 +1,6 @@
 env_v1/
 artifacts/
+.artifacts
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
