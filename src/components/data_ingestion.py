@@ -7,6 +7,8 @@ from src.logger import logging
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
 
+from src.components.data_transformation import DataTransformation,DataTransformationConfig
+
 @dataclass #no need init its a decorator when no functions
 class DataIngestionConfig:
     train_data_path : str=os.path.join('artifacts',"train.csv")
@@ -37,6 +39,3 @@ class DataIngestion:
             raise CustomException(e,sys.exc_info())
         
 
-if __name__ == "__main__":
-    data_ingestion = DataIngestion()
-    data_ingestion.initiate_data_ingestion()

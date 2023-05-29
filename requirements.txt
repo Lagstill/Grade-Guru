@@ -7,4 +7,5 @@ plotly
 scikit-learn
 catboost
 xgboost
+pickle
 -e .
