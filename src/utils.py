@@ -40,3 +40,13 @@ def evaluate_models(X_train,X_test,y_train,y_test,models,params):
     except Exception as e:
         logging.error("Error in Model Training")
         raise CustomException(e,sys.exc_info())
+    
+def load_object(file_path):
+    try:
+        with open(file_path, "rb") as f:
+            obj = pickle.load(f)
+        return obj
+    except Exception as e:
+        logging.error("Error in loading object")
+        raise CustomException(e,sys.exc_info())
+
