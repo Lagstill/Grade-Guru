@@ -1,6 +1,7 @@
 env_v1/
 artifacts/
 catboost_info/
+.ebextensions/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
