@@ -37,5 +37,5 @@ jobs:
     - name: Test with pytest
       run: |
         pip install pytest
-        export PYTHONPATH = app.py
+        export PYTHONPATH = $(pwd):$(pwd)/main
         pytest
