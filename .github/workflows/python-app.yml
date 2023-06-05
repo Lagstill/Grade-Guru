@@ -35,5 +35,5 @@ jobs:
       run: |
         pip install pytest
         pytest
-    - name: Run app.py for one minute
-      run: timeout 1m python app.py
+    - name: Run app.py for 5 minute
+      run: timeout 5m python app.py
