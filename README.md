@@ -6,7 +6,7 @@
 * The project also includes CI/CD using GitHub Actions for automated build, test, and deployment.
 
 #### Preview
-![image](https://user-images.githubusercontent.com/22552983/129447571-1b8b9b9a-4b0a-4b9a-8b9a-9b0b0b8b0b0b.png)
+![image](https://github.com/Lagstill/MLProject/blob/main/images/Predict.png)
 
 ### Dataset
 The dataset used for this project is the [Student Performance Dataset](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams) from Kaggle. Which indeed is the data generated from [Royce Kimmons: Understanding digital participation divides](http://roycekimmons.com/tools/generated_data/exams), though in the Kaggle a sample of 1000 rows is provided, here a 9000 rows dataset is used, by the data generator provided by Royce Kimmons, with duplicates removed. 
@@ -54,7 +54,7 @@ To get started with the Flask application, follow the steps below:
 
 1. Clone the repository:
 ```bash
-git clone <repository_url>
+git clone https://github.com/Lagstill/MLProject.git
 ```
 
 2. Install the required dependencies:
