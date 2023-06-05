@@ -1,4 +1,4 @@
-### Student Performance Predictor
+### Grade Guru
 
 ### Introduction
 * This is a modular Flask web application that provides a prediction endpoint for an ensemble of machine learning models. It takes input data from a web form and returns the predicted result.
